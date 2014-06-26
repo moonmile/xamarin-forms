@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XamarinForms_NavigationXaml.View.SecondPage"
+					   Title="Second page"
+					   Padding="5,10"
+					   >
+	<StackLayout>
+		<Label 
+			Text="{Binding NameAndAge}"
+			VerticalOptions="Center"
+			HorizontalOptions="Center" />
+	</StackLayout>					  
+</ContentPage>

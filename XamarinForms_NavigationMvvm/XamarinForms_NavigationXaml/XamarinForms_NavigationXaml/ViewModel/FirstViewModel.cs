@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace XamarinForms_Navigation
+namespace XamarinForms_NavigationXaml
 {
     public class FirstViewModel : BindableBase
     {
@@ -21,6 +21,7 @@ namespace XamarinForms_Navigation
                 if (_model.Name != value)
                 {
                     _model.Name = value;
+                    
                     this.OnPropertyChanged("Name");
                 }
             }

@@ -9,7 +9,6 @@ namespace XamarinForms_Navigation
 
         public static Page GetMainPage()
         {
-
             return new NavigationPage(new FirstPage(new FirstViewModel(App.model)));
         }
     }
